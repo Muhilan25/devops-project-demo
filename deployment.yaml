@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: python
-        image: nginx:1.14.2
+        image: 072583797351.dkr.ecr.ap-south-1.amazonaws.com/python:
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
