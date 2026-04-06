@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: python
-        image: 072583797351.dkr.ecr.ap-south-1.amazonaws.com/python:
+        image: 072583797351.dkr.ecr.ap-south-1.amazonaws.com/python:v27
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
